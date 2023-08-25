@@ -1,0 +1,55 @@
+/* src/styles/App.module.css */
+.App {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .title {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .inputContainer {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .keywordInput {
+    padding: 10px;
+    font-size: 16px;
+    width: 250px;
+    margin-right: 10px;
+  }
+  
+  .analyzeButton {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .results, .relatedKeywords {
+    margin-top: 30px;
+    font-size: 16px;
+  }
+  
+  .resultTitle, .relatedTitle {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .keywordList {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .keywordItem {
+    margin-bottom: 5px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+  }
